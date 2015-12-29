@@ -15,9 +15,9 @@ Flippy Directive Parameters
 <flippy
   class="fancy"
   id="flip"
-  ng-click="flip()"
-  ng-mouseenter="flip()"
-  ng-mouseleave="flip()"
+  ng-click="flip('flip')"
+  ng-mouseenter="flip('flip')"
+  ng-mouseleave="flip('flip')"
   flip-duration="800"
   timing-function="ease-in-out"
 >

@@ -25,9 +25,10 @@ angular.module('angular-flippy', [])
 				/**
 				 * behaviour for flipping effect.
 				 */
-				$scope.flip = function() {
-					$elem.toggleClass('flipped');
-					$scope.flipped = !$scope.flipped;
+				$scope.flip = function(id) {
+					var id = "#" + id;
+					var elem = angular.element(id);
+					elem.toggleClass('flipped');
 				}
 
 			}
